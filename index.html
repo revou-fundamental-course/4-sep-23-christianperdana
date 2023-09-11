@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Kalkulator Persegi</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-tittle">
+            <strong>Kalkulator Persegi</strong>
+        </div>
+    </div>
+
+    <div class="welcome-card">
+        <img src="img/square.jpg" alt="Selamat Datang" />
+        <h2>Selamat Datang di Kalkulator Keliling dan Luas Persegi</h2>
+        <p>
+            Di sini Anda dapat menghitung keliling dan luas persegi dengan mudah.
+        </p>
+        <a class="welcome-button" href="#" id="show-luas-persegi">Luas Persegi</a>
+        <a class="welcome-button" href="#" id="show-keliling-persegi">Keliling Persegi</a>
+    </div>
+
+    <!-- Card kalkulator luas persegi -->
+    <div class="calculator-card" id="luas-persegi" style="display: none;">
+        <h2>Kalkulator Luas Persegi</h2>
+        <img src="img/persegi.png" alt="Gambar Persegi" width="100">
+        <label for="sisi">Panjang Sisi:</label>
+        <form id="luas-persegi-form">
+            <input type="text" id="sisi" name="sisi" pattern="^[1-9]\d*(\.\d+)?$" required>
+            <div class="button-container">
+                <button type="submit" id="hitung-button">Hitung</button>
+                <button type="reset" id="reset-button">Reset</button>
+            </div>
+        </form>
+        <div id="luas-persegi-result" style="display: none;">
+            <p><strong>Rumus:</strong> Luas = sisi * sisi</p>
+            <p><strong>Perhitungan:</strong> Luas = <span id="luas-persegi-calculation"></span></p>
+        </div>
+        <button class="back" id="back-to-welcome-from-luas-persegi">Kembali</button>
+    </div>
+
+    <!-- Card kalkulator keliling persegi -->
+    <div class="calculator-card" id="keliling-persegi" style="display: none;">
+        <h2>Kalkulator Keliling Persegi</h2>
+        <img src="img/persegi.png" alt="Gambar Persegi" width="100">
+        <label for="sisi-keliling">Panjang Sisi:</label>
+        <form id="keliling-persegi-form">
+            <input type="text" id="sisi-keliling" name="sisi-keliling" pattern="^[1-9]\d*(\.\d+)?$" required>
+            <div class="button-container">
+                <button type="submit" id="hitung-keliling-button">Hitung</button>
+                <button type="reset" id="reset-keliling-button">Reset</button>
+            </div>
+        </form>
+        <div id="keliling-persegi-result" style="display: none;">
+            <p><strong>Rumus:</strong> Keliling = 4 * sisi</p>
+            <p><strong>Perhitungan:</strong> Keliling = <span id="keliling-persegi-calculation"></span></p>
+        </div>
+        <button class="back" id="back-to-welcome-from-keliling-persegi">Kembali</button>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section social">
+                <ul>
+                    <li><a href="https://www.instagram.com/christianpranidana/" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/in/christian-iisvharapranidana-paramitha-abba56281/" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://github.com/christianperdana" target="_blank">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-section copyright">
+            <p>&copy; 2023 Christian Iisvharapranidana Paramitha.</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

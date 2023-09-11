@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,200;1,300;1,400;1,700&display=swap');
+
+/* Body */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/img/background.jpg');
+    /* Ganti 'nama-gambar-anda.jpg' dengan URL atau path gambar latar belakang Anda */
+    background-size: cover;
+    /* Mengisi seluruh area body dengan gambar */
+    background-repeat: no-repeat;
+    /* Menghindari pengulangan gambar latar belakang */
+    background-attachment: fixed;
+    /* Membuat gambar tetap di tempat saat menggulir halaman */
+    background-position: center center;
+    /* Posisikan gambar di tengah-tengah body */
+
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar-tittle {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar-tittle strong {
+    font-weight: bold;
+}
+
+/* card welcome */
+.welcome-card {
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.welcome-card img {
+    width: 300px;
+    border-radius: 20px;
+}
+
+.welcome-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+/* card welcome */
+
+
+/* calculator */
+.calculator-card {
+    display: none;
+    width: 300px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+label {
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#hitung-button, #reset-button, #hitung-keliling-button, #reset-keliling-button, .back {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+#hitung-button:hover, #reset-button:hover, #hitung-keliling-button:hover, #reset-keliling-button:hover, .back:hover {
+    background-color: #555;
+}
+
+#luas-persegi-form {
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    display: block;
+    margin: 10px auto;
+}
+
+/* footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    margin: 0 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.footer-section ul li {
+    margin-right: 20px;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
