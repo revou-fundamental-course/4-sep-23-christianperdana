@@ -5,7 +5,7 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('/img/background.jpg');
+    background-image: url('img/background.jpg');
     /* Ganti 'nama-gambar-anda.jpg' dengan URL atau path gambar latar belakang Anda */
     background-size: cover;
     /* Mengisi seluruh area body dengan gambar */
