@@ -6,10 +6,10 @@ body {
     margin: 0;
     padding: 0;
     background-image: url('/img/background.jpg');
-    background-size: cover;/* Mengisi seluruh area body dengan gambar */
-    background-repeat: no-repeat;/* Menghindari pengulangan gambar latar belakang */
-    background-attachment: fixed;/* Membuat gambar tetap di tempat saat menggulir halaman */
-    background-position: center center;/* Posisikan gambar di tengah-tengah body */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
 
 }
 
