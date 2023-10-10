@@ -5,7 +5,7 @@ Fundamental Cource Software Engineering RevoU
 
 Nama : Christian Iisvharapranidana Paramitha
 
-Github : christianperdana
+Github : [christianperdana](https://github.com/christianperdana)
 
 github pages : https://revou-fundamental-course.github.io/4-sep-23-christianperdana/
 
